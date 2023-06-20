@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .image-upload {
+    margin-bottom: 20px;
+  }
+  
+  .image-preview {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+  }
+  
+  .classification-result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  

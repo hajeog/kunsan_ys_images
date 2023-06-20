@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>image classification</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.8.0/dist/tf.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.0.4/dist/mobilenet.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>image classification</h1>
+      <div class="image-upload">
+        <input type="file" id="uploadBtn" accept=".jpg">
+      </div>
+      <div class="image-preview" id="imageContainer"></div>
+      <div class="classification-result" id="resultContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
